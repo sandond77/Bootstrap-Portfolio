@@ -1,31 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Index</title>
+<head>
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+<link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-  <body>
-    <h1>Hello, world!</h1>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+  <title>Index</title>
+</head>
 
-  </body>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+           </button>
+      <a class="navbar-brand" href="index.html">Sandon Du</a>
+        </div>    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+     </div><!-- /.container-fluid -->
+  </div>
+</nav>
+
+<!-- Remove this container if you want content to be 100% width -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-xs-12">
+      <div class="panel panel-default">
+          <div class="panel-heading">
+            <h1 class="panel-title">About Me</h1>
+          </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputName2">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-xs-12">
+      <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect With Me!</h3>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-4">
+              <a href="https://github.com/sandond77">
+                <img src=assets/images/Github.png alt="Github" class="img-responsive">
+              </a>
+            </div>
+            <div class="col-xs-4">
+              <a href="https://www.linkedin.com/in/sandon-du-eit-36a547115/">
+                <img src=assets/images/Linkedin.png alt="LinkedIn" class="img-responsive">
+              </a>
+            </div>
+            <div class="col-xs-4">
+              <a href="https://stackoverflow.com/users/8705239/sandond77">
+                <img src=assets/images/StackOverflow.png alt="StackOverflow" class="img-responsive">
+              </a>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class=row>
+    <div class="col-xs-12">
+      <div class="panel-footer">
+        <h6 class="text-center">©Copyright 2017 Sandon Du</h6>
+      </div>
+    </div>
+  </div>
+</nav>
+
 </html>
