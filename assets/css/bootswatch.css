@@ -6956,7 +6956,7 @@ div{
     font-size:1.5vw;
   }
 
-.hovereffect {
+/*.hovereffect {
 width:100%;
 height:100%;
 float:left;
@@ -7042,4 +7042,4 @@ transform:translatey(0);
 .hovereffect:hover a.info {
 -webkit-transition-delay:.2s;
 transition-delay:.2s;
-}
+}*/
